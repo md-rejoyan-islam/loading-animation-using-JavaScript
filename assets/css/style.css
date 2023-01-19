@@ -1,41 +1,38 @@
-*{
-    box-sizing: border-box;
-    overflow: hidden;
+* {
+  box-sizing: border-box;
+  overflow: hidden;
 }
-body{
-    background-color: #141414;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+body {
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.animationLoader{
-    width: 400px;
+.animationLoader {
+  width: 400px;
 }
-.animationLoader .loaderPercent{
-    font-size: 60px;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    padding: 4px 0px;
+.animationLoader .loaderPercent {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0px;
 }
-.animationLoader .loaderDiv{
-   background-color: #101211;
-    height: 28px;
-    border-radius: 15px;
-    
+.animationLoader .loaderDiv {
+  background-color: #101211;
+  height: 28px;
+  border-radius: 15px;
 }
 
-.loader{
-    background-color: #ff2755;
-    border-radius: 15px;
-    height: 28px;
-    line-height: 28px;
-    font-size: 20px;
-    text-align: center;
-    color: white;    
+.loader {
+  background-color: #ff2755;
+  border-radius: 15px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
-
